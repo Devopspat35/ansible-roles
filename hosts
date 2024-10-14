@@ -1,7 +1,9 @@
 [appservers]
-10.0.0.219 ansible_user=ec2-user ansible_ssh_private_key_file=/tmp/key.pem
-18.191.140.83 ansible_user=ubuntu ansible_ssh_private_key_file=/tmp/key.pem
-18.191.140.83 ansible_user=ubuntu ansible_ssh_private_key_file=/tmp/key.pem
+172.31.31.181 ansible_user=ec2-user ansible_ssh_private_key_file=/tmp/key.pem
 
-[dbservers]
-18.117.91.109 ansible_user=ubuntu ansible_ssh_private_key_file=/tmp/key.pem
+
+#18.191.140.83 ansible_user=ubuntu ansible_ssh_private_key_file=/tmp/key.pem
+#18.191.140.83 ansible_user=ubuntu ansible_ssh_private_key_file=/tmp/key.pem
+
+#[dbservers]
+#18.117.91.109 ansible_user=ubuntu ansible_ssh_private_key_file=/tmp/key.pem
